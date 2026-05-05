@@ -22,7 +22,7 @@ scipy==1.11.4
 opencv-python==4.9.0.80
 Pillow==10.4.0
 
-# --- TensorFlow (safe pairing with numpy<2) ---
+# --- TensorFlow (requires numpy<=1.24.3) ---
 tensorflow==2.13.0
 tensorflow-estimator==2.13.0
 tensorflow-hub==0.16.1
